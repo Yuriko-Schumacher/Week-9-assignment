@@ -1,19 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+html,
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+* {
+	font-family: "Open Sans", sans-serif;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
 .container {
-    width: 1000px;
-    margin: auto;
+	width: 1000px;
+	margin: auto;
 }
 
 g.lines path {
-    fill: none;
-    stroke: rgba(120, 120, 120, 0.7);
-    stroke-width: 2px;
-    mix-blend-mode: overlay;
+	fill: none;
+	stroke: rgba(120, 120, 120, 0.7);
+	stroke-width: 2px;
+	mix-blend-mode: overlay;
 }
 
-svg#sankey rect {
-    fill: rgba(120, 120, 120, 0.7);
-}
 svg#sankey path {
-    fill: none;
-    stroke: rgba(120, 120, 120, 0.4);
+	fill: none;
+}
+
+.label {
+	font-size: 0.7em;
 }
